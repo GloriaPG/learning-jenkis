@@ -8,7 +8,6 @@ cloudbees.account='gloriapg'
 cloudbees.api.key='7E16EF24C43BD56B'
 cloudbees.api.secret='DEGS2UWUV+XN/8DP8FFD4XFPE6VB7YP0OPWZQ/W8MW8='
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
-
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
