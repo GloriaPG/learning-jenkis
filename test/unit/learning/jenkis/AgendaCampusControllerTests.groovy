@@ -54,7 +54,7 @@ class AgendaCampusControllerTests {
     void testShow() {
         controller.show()
 
-        assert flash.message != null
+        assert flash.message != "Hola"
         assert response.redirectedUrl == '/agendaCampus/list'
 
 
