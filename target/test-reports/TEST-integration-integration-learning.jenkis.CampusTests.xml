@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="vincoOrbiss-Mac-mini.local" name="learning.jenkis.CampusTests" tests="1" time="0.279" timestamp="2014-09-19T21:04:17">
+  <properties />
+  <testcase classname="learning.jenkis.CampusTests" name="testSomething" time="0.259" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
