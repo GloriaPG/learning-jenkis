@@ -8,7 +8,6 @@ cloudbees.account='gloriapg'
 cloudbees.api.key='7E16EF24C43BD56B'
 cloudbees.api.secret='DEGS2UWUV+XN/8DP8FFD4XFPE6VB7YP0OPWZQ/W8MW8='
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
-
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -25,18 +24,9 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenCentral()
 
-        // uncomment these to enable remote dependency resolution from public Maven repositories
-        //mavenCentral()
-        //mavenLocal()
-        //mavenRepo "http://snapshots.repository.codehaus.org"
-        //mavenRepo "http://repository.codehaus.org"
-        //mavenRepo "http://download.java.net/maven/2/"
-        //mavenRepo "http://repository.jboss.com/maven2/"
     }
     dependencies {
-        // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
-        // runtime 'mysql:mysql-connector-java:5.1.16'
     }
 
     plugins {
