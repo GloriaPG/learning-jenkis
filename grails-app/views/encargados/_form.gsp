@@ -4,7 +4,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: encargadosInstance, field: 'nombreComppleto', 'error')} ">
 	<label for="nombreComppleto">
-		<g:message code="encargados.nombreComppleto.label" default="Nombre Comppleto" />
+		<g:message code="encargados.nombreComppleto.label" default="Nombre Comppleto:" />
 		
 	</label>
 	<g:textField name="nombreComppleto" value="${encargadosInstance?.nombreComppleto}"/>
