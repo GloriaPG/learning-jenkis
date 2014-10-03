@@ -14,7 +14,8 @@ class CampusTests {
         campus.nombre="Trololo"
         campus.temario="en el momento se verá"
         campus.horario=10
-        campus.save(failOnError: true)
+       // campus.save(failOnError: true)
+       campus.save()
     }
 
     @After
